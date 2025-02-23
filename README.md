@@ -23,7 +23,7 @@
         ```
 
 3. **Fix Associations**
-   - Ensure proper `has_many` relationships are set up correctly for `User`, `Interest`, `Skill`, `UserInterest`, and `UserSkill` models.
+   - Ensure proper `has_many` and `belongs_to` relationships are set up correctly for `User`, `Interest`, `Skill`, `UserInterest`, and `UserSkill` models.
 
 4. **Setup and Use `Users::Create` in a Rails Application**
    - Implement `Users::Create` as an ActiveInteraction service in the Rails app.
